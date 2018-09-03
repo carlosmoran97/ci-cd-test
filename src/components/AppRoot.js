@@ -5,5 +5,4 @@ const AppRoot = () => (
         <h1>First build!!!</h1>
     </div>
 );
-
 export default AppRoot;
