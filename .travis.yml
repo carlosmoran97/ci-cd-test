@@ -8,6 +8,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 5e4e4566-94af-4bbf-869c-24a8119cd98e
-  app: ci-cd-test
+  app: ci-cd-testv1
   on:
     repo: carlosmoran97/ci-cd-test
