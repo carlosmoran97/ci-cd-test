@@ -1,0 +1,33 @@
+{
+  "name": "eslint-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint src/**/*.js",
+    "test": "jest",
+    "postinstall": "webpack --mode production",
+    "start": "NODE_ENV=production node src/server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.5.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
